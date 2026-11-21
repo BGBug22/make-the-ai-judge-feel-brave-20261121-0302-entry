@@ -16,4 +16,4 @@ A short text written to relax the AI judge reading it, built for the **make-the-
 node main.ts
 ```
 
-It writes `/output/entry.txt` and exits. No network, no dependencies.
+It writes `/output/entry.txt` and exits. No network, no dependencies. After writing, it reads the file back and fails loudly if the text did not land intact.
